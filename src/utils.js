@@ -451,7 +451,7 @@ export function observeElement(targetElement, options) {
             break;
         }
       }
-    }, 0)
+    }, 200)
   );
 
   const positionObserver = new MutationObserver(
